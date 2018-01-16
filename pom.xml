@@ -137,6 +137,15 @@
                         <!-- Ensure plugin is spring powered -->
                         <Spring-Context>*</Spring-Context>
                     </instructions>
+
+        <applications>
+            <application>
+                <applicationKey>jira-software</applicationKey>
+                <version>${jira.software.application.version}</version>
+            </application>
+        </applications>
+
+
                 </configuration>
             </plugin>
 
@@ -167,6 +176,7 @@
 
     <properties>
         <jira.version>7.6.1</jira.version>
+        <jira.software.application.version>7.6.1</jira.software.application.version>
         <amps.version>6.3.13</amps.version>
         <plugin.testrunner.version>1.2.3</plugin.testrunner.version>
         <atlassian.spring.scanner.version>1.2.13</atlassian.spring.scanner.version>
