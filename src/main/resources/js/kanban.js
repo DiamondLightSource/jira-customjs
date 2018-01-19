@@ -17,6 +17,17 @@ function apply_DLS_custom_css() {
       window.console.log("Applying custom styling from " + boardcsslink.href + " for board number " + boardnumber[1]);
       document.head.appendChild(boardcsslink);
     }
+
+    // Fix bug of the column group headers appearing in wrong location
+    // when sidebar is already collapsed on page load.
+    window.addEventListener('DOMContentLoaded',  function () {
+      // While DOMContentLoaded is strictly too early, there are a number of
+      // other timeout events queueing up already, so adding the event here
+      // should work correctly. If this causes problems use
+      //   window.addEventListener('load', function () {
+      // instead.
+      window.setTimeout(GH.WorkView.handleResizeEvent, 1);
+    }, false);
   }
 }
 apply_DLS_custom_css();
