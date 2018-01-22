@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>uk.ac.diamond.jira</groupId>
     <artifactId>customJS</artifactId>
-    <version>20180119</version>
+    <version>20180122</version>
     <organization>
         <name>Diamond Light Source</name>
         <url>http://www.diamond.ac.uk/</url>
