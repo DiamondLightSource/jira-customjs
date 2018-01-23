@@ -7,7 +7,7 @@ function apply_DLS_custom_css() {
     boardcss[1] = 'https://DiamondLightSource.github.io/jira-customjs/scisoftmx.css';
 
     // Scisoft MX boards
-    boardcss[2007] = boardcss[2019] = boardcss[2027] =
+    boardcss[2007] = boardcss[2026] =
       'https://DiamondLightSource.github.io/jira-customjs/scisoftmx.css';
 
     if (boardcss[boardnumber[1]]) {
