@@ -1,4 +1,5 @@
-#ghx-header { background: url("spring.jpg") 2px bottom no-repeat; padding-left: 130px; background-size: 120px 80px; }
+#ghx-header { background: url("autumn.jpg") 2px bottom no-repeat; padding-left: 130px; background-size: 120px 80px; }
+#ghx-header.spring { background: url("spring.jpg") 2px bottom no-repeat; padding-left: 130px; background-size: 120px 80px; }
 #ghx-header.easterbunny { background: url("easter.jpg") 5px bottom no-repeat; padding-left: 90px; background-size: 80px 80px; }
 #ghx-header.snowman { background: url("winter.png") 13px bottom no-repeat; padding-left: 90px; background-size: 61px 80px; }
 #ghx-header.christmas-tree { background: url("tree.jpg") left bottom no-repeat; padding-left: 90px; background-size: 74px 80px; }
