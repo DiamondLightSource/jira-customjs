@@ -16,6 +16,20 @@
 .ghx-issue .ghx-flags { display: none; left: auto; right: 47px; top: 7px; }
 .ghx-issue.ghx-flagged { background-color: #ffeeee; }
 .ghx-issue.ghx-flagged .ghx-flags { display: block !important; }
+.ghx-issue .ghx-highlighted-fields {
+    font-size: inherit;
+    max-width: 100%;
+    padding-right: 0;
+    position: absolute;
+    right: 45px;
+    top: -5px;
+}
+.ghx-issue .ghx-highlighted-fields .ghx-highlighted-field { margin-left: 9em; }
+.ghx-issue .ghx-highlighted-fields .ghx-highlighted-field span.aui-label {
+    border: 0;
+    font-size: 12px;
+    padding: 2px 5px;
+}
 .ghx-issue .ghx-type { display: none; }
 .ghx-issue .ghx-days { z-index: 100; }
 .ghx-issue.ghx-done .ghx-key a { text-decoration: none }
@@ -42,3 +56,7 @@
 .trivial-issue img { width: 40%; height: 40%; text-align: right; }
 
 .js-kanplan-enable-inline-dialog { display: none !important; }
+
+.aui-label[data-epickey="SCI-6218"] { background: #055; color: #fff; }
+.aui-label[data-epickey="SCI-7796"] { background-image: linear-gradient(to right, #005, #009); color: #fff; }
+.aui-label[data-epickey="SCI-7496"] { background-image: linear-gradient(to right, #040, #080); color: #fff; }
