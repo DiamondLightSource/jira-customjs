@@ -29,4 +29,16 @@
 .ghx-columns .ghx-column:nth-child(3) { background-color: #EFD; }
 .ghx-columns .ghx-column:nth-child(4) { background-color: #DFD; }
 
+.minor-issue { font-size: 80%; opacity: 0.8 }
+.minor-issue .ghx-avatar { text-align: right; top: 8px;}
+.minor-issue .ghx-days { display: none;}
+.minor-issue .ghx-issue-content { padding-top: 4px; padding-bottom: 4px; }
+.minor-issue img { width: 40%; height: 40%; text-align: right; }
+
+.trivial-issue { font-size: 80%; opacity: 0.8 }
+.trivial-issue .ghx-avatar { text-align: right; top: 8px;}
+.trivial-issue .ghx-days { display: none;}
+.trivial-issue .ghx-issue-content { padding-top: 4px; padding-bottom: 4px; }
+.trivial-issue img { width: 40%; height: 40%; text-align: right; }
+
 .js-kanplan-enable-inline-dialog { display: none !important; }
