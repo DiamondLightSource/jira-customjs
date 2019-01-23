@@ -57,6 +57,9 @@
 
 .js-kanplan-enable-inline-dialog { display: none !important; }
 
+/* epics markup */
+.ghx-issue.ghx-type-6 { background-image: linear-gradient(to right, #CFE, #FFF 40%); }
+.ghx-issue.ghx-type-6 .ghx-grabber { width: 5px; }
 .aui-label[data-epickey="SCI-6218"] { background: #055; color: #fff; }
 .aui-label[data-epickey="SCI-7796"] { background-image: linear-gradient(to right, #005, #009); color: #fff; }
 .aui-label[data-epickey="SCI-7496"] { background-image: linear-gradient(to right, #040, #080); color: #fff; }
